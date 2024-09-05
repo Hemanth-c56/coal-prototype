@@ -1,0 +1,27 @@
+.form-head{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.form-head label{
+    font-size: 1.1rem;
+}
+
+.form-head input{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-head div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+select{
+    padding: 1rem;
+    font-size: 1rem;
+}

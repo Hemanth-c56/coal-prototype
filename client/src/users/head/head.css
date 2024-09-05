@@ -1,0 +1,48 @@
+.home-header{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gm-card{
+    border: 2px solid grey;
+    margin-bottom: 10px;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.gm-container{
+    height: auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.title-heading{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mines-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.mines-card{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
