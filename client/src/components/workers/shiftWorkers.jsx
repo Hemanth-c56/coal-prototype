@@ -84,7 +84,7 @@ function WorkersForm() {
                       <h2>{operator.name}</h2> <h3>{operator.category}</h3>
                     </div>
                     <div>
-                      <button onClick={() => addOperator(operator._id)}>
+                      <button className="worker-add-btn" onClick={() => addOperator(operator._id)}>
                         add
                       </button>
                     </div>

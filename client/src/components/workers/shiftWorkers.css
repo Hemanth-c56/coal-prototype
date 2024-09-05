@@ -77,6 +77,10 @@
     font-size: 1.2rem;
 }
 
+.worker-add-btn:active{
+    transform: scale(0.9);
+}
+
 @media (max-width: 768px) {
     .shift-details-container {
       grid-template-columns: 1fr;

@@ -9,7 +9,7 @@ import { Link, useNavigate } from "react-router-dom";
 function SuperVisor() {
    
     const [formOpen, setFormOpen] = useState(false);  
-    const [showNotifications, setShowNotifications] = useState(true);
+    const [showNotifications, setShowNotifications] = useState(false);
     const [fromTime, setFromTime] = useState();
     const [toTime, setToTime] = useState();
     const [shifts, setShifts] = useState([]);

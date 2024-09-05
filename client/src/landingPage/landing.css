@@ -1,39 +1,207 @@
-.header-image{
-    height: auto;
-}
-
-.header-image img{
-    width: 100%;
-    height: 500px;
-}
-
-.landing-header{
-    height: 70px;
+.landing-page{
+    /* border: 2px solid black; */
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-.place-item__modal-content {
-    padding: 0;
-}
-  
-.place-item__modal-actions {
-text-align: right;
+.logo-header{
+    height: 50px;
+    /* border: 1px solid red; */
 }
 
-.thumbs{
-    display: none;
+.logo-header img{
+    width: 3rem;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.landing-section{
+    /* border: 2px solid black; */
+    width: 93%;
+    margin: 0px auto;
+}
+
+.section-heading{
+    font-size: 5rem;
+    font-family: "Michroma", sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    transform: scaleX(1.1);
+    transform-origin: left;
+}
+
+.welcome-container{
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.desc-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.image-container{
+    display: flex;
+    flex: 1;
+    /* border: 1px solid blue; */
+}
+
+.image-container img{
+    width: 100%;
+    position: relative;
+    top: -40px;
+}
+
+.welcome-desc{
+    margin-top: 4rem;
+    /* border: 1px solid black; */
+    height: fit-content;
+    line-height: 1.3;
+}
+
+.welcome-desc span{
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.login-container{
+    /* border: 1px solid black; */
+    margin-bottom: 2rem;
+}
+
+.login-container button{
+    background-color: #FFC107;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 90px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    top: -30px;
+}
+
+.login-container button:active{
+    transform: scale(0.9);
+}
+
+.founders-header{
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.founders-header span{
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    /* border: 2px solid red; */
+    padding: 15px 30px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.founders-header div{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #CC5500;
+}
+
+.founders-container{
+    /* border: 1px solid black; */
+    background-color: #CC5500;
+    border-top-left-radius: 25px;
+    padding: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.founders-container h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards-container{
+    /* border: 2px solid white; */
+    margin-top: 50px;
+    display: flex;
+    gap: 8rem;
+}
+
+.card-founder{
+    /* border: 1px solid white; */
+    flex: 1;
+}
+
+.card-image{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.card-image img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-info{
+    /* border: 1px solid white; */
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-info span{
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 .landing-footer{
-    height: 70px;
-    border-top: 2px solid black;
+    margin-top: 5rem;
+    height: 170px;
+    background-color: black;
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
-@media (max-width: 400px) {
-    .header-image img{
-        height: 250px;
-    }
+.contact-info-container, .legal-info-container{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.below-footer{
+    /* border: 1px solid red; */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.below-footer-div{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.below-footer-div span{
+    font-size: 2rem;
+    letter-spacing: 6px;
+    font-family: "Michroma", sans-serif;
+    font-weight: bold;
+}
+
+.below-footer-div img{
+    width: 3rem;
 }
